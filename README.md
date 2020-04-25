@@ -176,4 +176,4 @@ Package('org.quickcorp.special.backgrounds.myspacebackground',[
 
 ## Try the demo:
 
-To try the live demo click [here](https://quickcorp.github.io/qcobjects-space-example)
+To try the live demo click [here](https://quickcorp.github.io/qcobjects-space-example/)
