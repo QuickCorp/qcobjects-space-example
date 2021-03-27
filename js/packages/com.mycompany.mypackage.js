@@ -7,8 +7,9 @@ Package('com.mycompany.mypackage',[
             var spaceContext = New (MySpace2d, {});
 
             // by setting an interval to draw we got a space traveling effect as a result
-            setInterval (function (){
+            requestAnimationFrame (function interval(){
                 spaceContext.draw();
+                requestAnimationFrame(interval);
             });
 
              // this will append the canvas element to the component
